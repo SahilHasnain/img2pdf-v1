@@ -1,0 +1,13 @@
+{
+  "name": "image-to-pdf-converter",
+  "version": "1.0.0",
+  "description": "Convert images to PDF - single or multiple documents",
+  "main": "convert.js",
+  "scripts": {
+    "convert:single": "node convert.js single",
+    "convert:multiple": "node convert.js multiple"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}
